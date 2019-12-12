@@ -6,5 +6,7 @@ class Anagram
     @word = word 
   end
   
-  def 
+  def method 
+    first_word = @word.split("")
+    first_word.sort 
     
