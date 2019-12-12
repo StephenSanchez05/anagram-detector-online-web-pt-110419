@@ -4,6 +4,6 @@ class Anagram
   
   def initialize(word)
     first_word = word.split("")
-    first_word.sort 
+    @word = first_word.sort 
   end
   
