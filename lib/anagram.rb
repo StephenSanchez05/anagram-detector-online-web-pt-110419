@@ -7,3 +7,4 @@ class Anagram
     @word = first_word.sort 
   end
   
+  
