@@ -3,10 +3,7 @@ class Anagram
   attr_accessor :word 
   
   def initialize(word)
-    @word = word 
+    first_word = word.split("")
+    first_word.sort 
   end
   
-  def method 
-    first_word = @word.split("")
-    first_word.sort 
-    
